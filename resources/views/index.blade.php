@@ -30,6 +30,7 @@
                     <th>Sender</th>
                     <th>Amount</th>
                     <th>Receiver</th>
+                    <th>Date of transaction</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,6 +40,7 @@
                         <td>{{ $transaction->sender }}</td>
                         <td>{{ $transaction->amount }}</td>
                         <td>{{ $transaction->receiver }}</td>
+                        <td>{{ $transaction->created_at}}</td>
                         <td>
                             <form action="{{ route('destroy', $transaction->id) }}" method="POST">
                                 @csrf
