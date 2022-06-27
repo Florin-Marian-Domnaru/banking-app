@@ -1,0 +1,26 @@
+
+body{
+    font-size: medium;
+    font-weight: 100;
+    
+}
+
+.createForm{
+    padding: 75px;
+    margin: 40px;
+    font-size: large;
+    text-align: center;
+    height: 600px;   
+}
+
+.header{
+    font-size: 50px;
+    padding:19px 19px; 
+    margin: 15px;
+    text-align: center;
+}
+
+.table {
+    font-size: medium;
+    padding: 10px;
+}
